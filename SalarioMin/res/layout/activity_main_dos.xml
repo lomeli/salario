@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <!--
+<EditText android:text="@+id/EditText02" 
+	android:id="@+id/EditText02" 
+	android:layout_width="fill_parent" 
+	android:layout_height="wrap_content">
+	</EditText>
+    -->
+
+    <TextView
+        android:id="@+id/TextView01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:layout_weight="4"
+        android:text="58"
+        android:textSize="90sp" />
+
+    <TextView
+        android:id="@+id/textView1a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_marginBottom="51dp"
+        android:layout_marginLeft="18dp"
+        android:text="Zona A" />
+
+    <Button
+        android:id="@+id/Button01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView1a"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="70dp"
+        android:text="cuanto seria ?" />
+
+    <TextView
+        android:id="@+id/textView3a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView2a"
+        android:layout_alignBottom="@+id/textView2a"
+        android:layout_alignRight="@+id/Button01"
+        android:layout_marginRight="18dp"
+        android:text="Nueva York" />
+
+    <TextView
+        android:id="@+id/textView4a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView3a"
+        android:layout_alignBottom="@+id/textView3a"
+        android:layout_marginLeft="15dp"
+        android:layout_toRightOf="@+id/textView3a"
+        android:text="Tu Salario" />
+
+    <Spinner
+        android:id="@+id/Spinner01"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/EditText01" />
+
+    <TextView
+        android:id="@+id/textView2a"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/Button01"
+        android:layout_toLeftOf="@+id/TextView01"
+        android:text="Zona B" />
+
+    <EditText
+        android:id="@+id/EditText01"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2a"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="52dp"
+        android:ems="10"
+        android:hint="@string/escribe_cantidad"
+        android:inputType="number"
+        android:text="escribe cantidad" >
+
+        <requestFocus />
+    </EditText>
+
+    <TextView
+        android:id="@+id/textView1b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/textView1a"
+        android:layout_below="@+id/textView2a"
+        android:layout_marginTop="17dp"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView4b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView3b"
+        android:layout_alignBottom="@+id/textView3b"
+        android:layout_alignRight="@+id/textView4a"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView2b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/textView2a"
+        android:layout_below="@+id/textView2a"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView3b"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/textView2b"
+        android:layout_alignBottom="@+id/textView2b"
+        android:layout_alignRight="@+id/textView3a"
+        android:text="TextView" />
+
+</RelativeLayout>

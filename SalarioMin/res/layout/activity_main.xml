@@ -7,7 +7,7 @@
     
 <EditText android:text="@+id/EditText01" 
     android:inputType="number"
-    android:hint="escribe la cantidad"
+    android:hint="@string/escribe_cantidad"
 	android:id="@+id/EditText01" 
 	android:layout_width="fill_parent" 
 	android:layout_height="wrap_content">
